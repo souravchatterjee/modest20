@@ -14,12 +14,13 @@
           margin: 0;
           font-size: 18px;
           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-          background-color: rgba(8, 57, 90, 0.87);
+          /* background-color: rgba(8, 57, 90, 0.87); */
+          background-color: black;
       }
       .nopad-container-fluid{
           padding-top: 0px;
           padding-bottom: 0px;
-          padding-left: 0px;
+          padding-left: 20px;
           padding-right: 0px;
           position: relative;
           text-align: left;
@@ -87,6 +88,7 @@
           position: fixed;
           top: 0;
           width: 100%;
+          z-index:2000;
       }
       .sticky + .content {
           padding-top: 60px;
@@ -95,56 +97,118 @@
 </head>
 
 <body>
-    <div class="jumbotron" style="background-color: cornsilk">
-       <h1>MODEST 20: Modeling of Dense Star Clusters in the Era of Large-scale Surveys</h1> 
-       <h2>February 2 - 7, 2020</h2>
-       <h2>Tata Instittue of Fundamental Research, Colaba, Mumbai, India</h2>
-       <i class="fa fa-twitter">  #MODEST20</i>
+    <div class="row">
+        <div class="col-md-9">
+            <div class="nopad-container-fluid">
+                <!-- <h2 style="color:azure; font-weight: bolder">MODEST 20: Modeling, Observation, and Theory of Dense Star Clusters</h2> -->
+                <h2 style="color:azure; font-weight: bolder">MODEST 20: Dense Star Clusters in the Era of Large Surveys</h2>
+                <h3 style="color:aquamarine">February 2 - 7, 2020</h2>
+                <h3 style="color:cornflowerblue">Tata Instittue of Fundamental Research, Colaba, Mumbai, India</h2>
+                <i class="fa fa-twitter" style="color:cyan">  #MODEST20</i>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <img class="img-responsive" src="assets/GC.png" alt="GC" style="width:100%;height:auto">
+        </div>
     </div>
     
     <div id="navbar">
-        <a class="active" href="index.html">Home</a>
+        <a href="index.html">Home</a>
         <a href="registration.html">Registration</a>
         <a href="announcements.html">Announcements</a>
         <a href="schedule.html">Schedule</a>
         <a href="posters.html">Posters</a>
-        <a href="participants.html">Participants</a>
-        <a href="travel_info.html">Travel Information</a>
+        <a class="active" href="participants.html">Participants</a>
+        <a href="travel.html">Travel Information</a>
         <a href="contacts.html">Contacts</a>
     </div>
-    
-
     <div class="row">
-        <div class="col-md-12" style="padding-right:40px;padding-left:40px">
-            <div class="well" style="background-color: gainsboro;padding:12px">
-                <p class="text-justify">
-                    The study of the evolution of massive star clusters connects a variety of 
-                    research areas in astrophysics and has implications for our understanding 
-                    in cosmological star formation, galaxy formation and evolution, stellar 
-                    evolution, and the formation of a variety of stellar exotica. The recent 
-                    breakthroughs in our understanding of how star clusters form and evolve 
-                    come from a vraiety of breakthroughs in observations spanning all electromagnetic 
-                    wavelengths and, most recently, gravitational waves. To pave the way to a 
-                    better understanding of star cluster formation and evolution, it is crucial 
-                    to increase communication between researchers working in many different areas 
-                    of astrophysics. In the era of observation-driven astronomy, this conference 
-                    will strive to foster this communication by showcasing our recent progress 
-                    in observational, theoretical, and modeling capabilities. 
-                </p>
-            </div>
-            <div class="well" style="background-color: ivory;padding:12px">
-                <p class="text-left">
-                    <h1>Scientific Organizing Committee</h1>
-                </p>
-                <p class="text-left">
-                    TBD
-                </p>
-            </div>
-            
+        <div class="col-md-1">
         </div>
-        
+        <div class="col-md-10">
+            <div classs="container-fluid">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="3" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="4" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="5" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="6" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="7" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="8" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="9" class="active"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="assets/tifr_select/a01a.jpg" alt="0" style="width:100%;height:auto">
+                        </div>
+                        <div class="item">
+                            <img src="assets/tifr_select/a02.jpg" alt="1" style="width:100%;height:auto">
+                        </div>     
+                        <div class="item">
+                            <img src="assets/tifr_select/a03.jpg" alt="2" style="width:100%;height:auto">
+                        </div>
+                        <div class="item">
+                            <img src="assets/tifr_select/a04.jpg" alt="3" style="width:100%;height:auto">
+                        </div>
+                        <div class="item">
+                            <img src="assets/tifr_select/a05.jpg" alt="4" style="width:100%;height:auto">
+                        </div>
+                        <div class="item">
+                            <img src="assets/tifr_select/a06.jpg" alt="5" style="width:100%;height:auto">
+                        </div>
+                        <div class="item">
+                            <img src="assets/tifr_select/a07.jpg" alt="6" style="width:100%;height:auto">
+                        </div>
+                        <div class="item">
+                            <img src="assets/tifr_select/a08.jpg" alt="7" style="width:100%;height:auto">
+                        </div>
+                        <div class="item">
+                            <img src="assets/tifr_select/a09.jpg" alt="8" style="width:100%;height:auto">
+                        </div>
+                        <div class="item">
+                            <img src="assets/tifr_select/a10.jpg" alt="9" style="width:100%;height:auto">
+                        </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1">
+        </div>
     </div>
 
-    
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h2 class="display-4">Under construction. Please stay tuned. </h2>
+        </div>
+    </div>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+            
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+            
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>   
     
 </body>
